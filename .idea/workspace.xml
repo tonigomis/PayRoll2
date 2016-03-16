@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87932b24-ded8-4ab2-bcaa-aafdf37e86ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExamenPayRoll.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ExamenPayRoll.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ordena.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Addwindow.java" afterPath="$PROJECT_DIR$/Addwindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deletewindow.java" afterPath="$PROJECT_DIR$/Deletewindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Editwindow.java" afterPath="$PROJECT_DIR$/Editwindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Emprptwindow.java" afterPath="$PROJECT_DIR$/Emprptwindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LoginFrame.java" afterPath="$PROJECT_DIR$/LoginFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainMenu.java" afterPath="$PROJECT_DIR$/MainMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PayRoll.iml" afterPath="$PROJECT_DIR$/PayRoll.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Settingswindow.java" afterPath="$PROJECT_DIR$/Settingswindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/printwindow.java" afterPath="$PROJECT_DIR$/printwindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PayRoll.iws" />
     <ignored path=".idea/workspace.xml" />
