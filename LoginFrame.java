@@ -26,7 +26,9 @@ public class LoginFrame extends JFrame implements ActionListener {
     private JLabel passwordLbl;
     private static JTextField userTxt;
     private static JPasswordField passwordTxt;
-    
+
+    /** Aquestes dues variables públiques són les que fa servir el projecte per l'autenticació de l'usuari.
+     */
     public String loginname;
     public String loginpass;
     
@@ -41,8 +43,8 @@ public class LoginFrame extends JFrame implements ActionListener {
     
     public LoginFrame()
     {
-    
- 	  
+
+
    panel1 = new JPanel();
    panel1.setLayout(new FlowLayout());
    nameLbl = new JLabel("WELCOME TO GEC'S PAYROLL SYSTEM");
@@ -97,6 +99,11 @@ public class LoginFrame extends JFrame implements ActionListener {
 
 
     }
+        /** Mètode que realitza l'acció d'autenticar quan es prem el botó del JFrame.
+         *
+         * @param event conté el tipus d'event que es realitzarà al programa.
+         *
+         * */
     
        public void actionPerformed(ActionEvent event)
     {
@@ -111,7 +118,10 @@ public class LoginFrame extends JFrame implements ActionListener {
             		System.exit(0);
         }
     }
-        
+        /** Realitza la funció d'autenticació de l'usuari a Base de Dades.
+         * Requereix que s'hagin definit les variables de classe loginname i loginpass
+         * */
+
         public void login()
         {
         	loginname = userTxt.getText().trim();
@@ -164,11 +174,18 @@ public class LoginFrame extends JFrame implements ActionListener {
           	}		
     }
 
+    /** Descriu si un usuari ha fet login o no. Retorna un valor booleà.
+     * @return true si l'usuari ha fet login, false en cas contrari.
+     * */
+
     public boolean isLogged(){
         return !loginname.isEmpty() && !loginpass.isEmpty();
     }
     
-    
+    /** És el mètode inicial del projecte PayRoll i serveix per a inicialitzar tot el programa.
+     * Com a paràmetre accepta una array de Strings, però aquest paràmetre no es fa servir al projecte.
+     * @param args No es fa servir al projecte
+     * */
     public static void main(String[] args)
     {
         
